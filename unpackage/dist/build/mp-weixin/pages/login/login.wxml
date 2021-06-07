@@ -1,0 +1,1 @@
+<u-button bind:click="__e" vue-id="35a7246c-1" data-event-opts="{{[['^click',[['login']]]]}}" class="data-v-63936b82" bind:__l="__l" vue-slots="{{['default']}}">登录</u-button>

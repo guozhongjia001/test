@@ -1,0 +1,17 @@
+{
+    "uni-app": {
+        "scripts": {
+            "custom-platform": { 
+                "title":"企业微信小程序", 
+                "BROWSER":"", 
+                "env": {
+                    "UNI_PLATFORM": "mp-weixin",  
+                    "MY_TEST": "" 
+                 },
+                "define": { 
+                    "QY-WEIXIN": true 
+                }
+            }
+        }    
+    }
+}
