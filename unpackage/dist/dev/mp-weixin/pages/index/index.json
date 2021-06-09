@@ -1,7 +1,7 @@
 {
-  "navigationBarTitleText": "uView-index",
+  "navigationBarTitleText": "工作台",
   "usingComponents": {
     "u-button": "/uview-ui/components/u-button/u-button",
-    "u-link": "/uview-ui/components/u-link/u-link"
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar"
   }
 }

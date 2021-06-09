@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "代办",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar"
+  }
+}

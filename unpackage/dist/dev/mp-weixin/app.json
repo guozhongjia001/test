@@ -1,8 +1,11 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/center/index",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/pending/pending",
+    "pages/addwork/addwork",
+    "pages/work/work",
+    "pages/my/my"
   ],
   "subPackages": [],
   "window": {
@@ -14,23 +17,25 @@
   "tabBar": {
     "color": "#909399",
     "selectedColor": "#303133",
+    "backgroundColor": "#FFFFFF",
     "borderStyle": "black",
-    "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "iconPath": "static/index.png",
-        "selectedIconPath": "static/index-selected.png",
-        "text": "首页"
+        "pagePath": "pages/index/index"
       },
       {
-        "pagePath": "pages/center/index",
-        "iconPath": "static/center.png",
-        "selectedIconPath": "static/center-selected.png",
-        "text": "我"
+        "pagePath": "pages/pending/pending"
+      },
+      {
+        "pagePath": "pages/addwork/addwork"
+      },
+      {
+        "pagePath": "pages/work/work"
+      },
+      {
+        "pagePath": "pages/my/my"
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

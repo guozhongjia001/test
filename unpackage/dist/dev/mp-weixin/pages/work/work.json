@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "全部功能",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar"
+  }
+}

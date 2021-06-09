@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import App from './App'
 
+// 引入vuex
+import store from 'store/index.js'
+Vue.prototype.$store = store
 Vue.config.productionTip = false
-
 App.mpType = 'app'
 
 // 引入全局uView
@@ -10,7 +12,8 @@ import uView from 'uview-ui'
 Vue.use(uView);
 
 const app = new Vue({
-    ...App
+    ...App,
+	store
 })
 
 // 请求配置 请求拦截 响应拦截

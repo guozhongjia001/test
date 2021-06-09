@@ -35,5 +35,12 @@
 
 <style lang="scss">
 	@import "uview-ui/index.scss";
+
 	/*每个页面公共css */
+	// 隐藏scroll-view的滚动条
+	::-webkit-scrollbar {
+		width: 0;
+		height: 0;
+		background-color: transparent;
+	}
 </style>

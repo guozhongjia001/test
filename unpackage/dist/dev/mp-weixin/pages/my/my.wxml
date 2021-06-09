@@ -1,0 +1,1 @@
+<view>我的页面<u-tabbar vue-id="704e9d00-1" list="{{tabar}}" mid-button="{{true}}" bind:__l="__l"></u-tabbar></view>

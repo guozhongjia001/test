@@ -26,7 +26,7 @@ const install = (Vue,vm) => {
 	Vue.prototype.$u.http.interceptor.response = (res) => {
 		// 对状态码进行判断
 		if(res.code == 200) {
-			return res.result;
+			return res.result
 		} else if(res.code == 201) {
 			vm.$u.toast('验证失败，请重新登录');
 			setTimeout(() => {

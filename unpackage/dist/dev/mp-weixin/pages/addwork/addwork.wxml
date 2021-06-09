@@ -1,0 +1,1 @@
+<view>新增页面<u-tabbar vue-id="630dff1a-1" list="{{tabar}}" mid-button="{{true}}" bind:__l="__l"></u-tabbar></view>
